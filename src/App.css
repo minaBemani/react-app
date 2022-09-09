@@ -1,38 +1,53 @@
 .App {
-  text-align: center;
+  font-family: "Shabnam", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.userImg {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.myForm {
+  background-color: #e9ecef;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myCard {
+  width: 16rem;
+  background: #fff3cd !important;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.myCard:hover {
+  opacity: 0.7;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myTable {
+  border: 1px solid grey;
+}
+
+thead tr {
+  background: #cff4fc;
+}
+
+tbody tr:nth-child(n) {
+  background: #fff3cd;
+}
+
+tbody tr:nth-child(2n) {
+  background: #cff4fc;
+}
+
+.myLink {
+  text-decoration: none;
+  color: black;
+}
+
+.activeLink {
+  background-color: #cff4fc !important;
 }
